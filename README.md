@@ -22,6 +22,10 @@ This repository using [Apache License 2.0]
 * automated build and testing if possible. Because the easiest way to build docker image is using [docker automated test & build]
 * write something about it on a blog maybe?
 
+## Timeline Progress
+* [25032020] this repo created
+* [26032020] Update README.md and try docker-compose SUCCESS
+
 [docker-compose]:https://docs.docker.com/compose/ 
 [official jitsi/docker-jitsi-meet]:https://github.com/jitsi/docker-jitsi-meet
 [quick-start readme]:https://github.com/scen-git/jitsi-docker/blob/master/SOURCE.md#quick-start
