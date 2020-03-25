@@ -319,24 +319,24 @@ var config = {
     // Peer-To-Peer mode: used (if enabled) when there are just 2 participants.
     //
 
-    p2p: {
+    // p2p: {
         // Enables peer to peer mode. When enabled the system will try to
         // establish a direct connection when there are exactly 2 participants
         // in the room. If that succeeds the conference will stop sending data
         // through the JVB and use the peer to peer connection instead. When a
         // 3rd participant joins the conference will be moved back to the JVB
         // connection.
-        enabled: true,
+        // enabled: true,
 
         // Use XEP-0215 to fetch STUN and TURN servers.
         // useStunTurn: true,
 
         // The STUN servers that will be used in the peer to peer connections
-        stunServers: [
-            { urls: 'stun:stun.l.google.com:19302' },
-            { urls: 'stun:stun1.l.google.com:19302' },
-            { urls: 'stun:stun2.l.google.com:19302' }
-        ],
+        // stunServers: [
+        //     { urls: 'stun:stun.l.google.com:19302' },
+        //     { urls: 'stun:stun1.l.google.com:19302' },
+        //     { urls: 'stun:stun2.l.google.com:19302' }
+        // ],
 
         // Sets the ICE transport policy for the p2p connection. At the time
         // of this writing the list of possible values are 'all' and 'relay',
@@ -348,7 +348,7 @@ var config = {
 
         // If set to true, it will prefer to use H.264 for P2P calls (if H.264
         // is supported).
-        preferH264: true
+        // preferH264: true
 
         // If set to true, disable H.264 video codec by stripping it out of the
         // SDP.
@@ -357,7 +357,7 @@ var config = {
         // How long we're going to wait, before going back to P2P after the 3rd
         // participant has left the conference (to filter out page reload).
         // backToP2PDelay: 5
-    },
+    // },
 
     analytics: {
         // The Google Analytics Tracking ID:
@@ -379,25 +379,25 @@ var config = {
         // shard: "shard1",
         // region: "europe",
         // userRegion: "asia"
-    }
+    },
 
     // Local Recording
     //
 
-    // localRecording: {
+    localRecording: {
     // Enables local recording.
     // Additionally, 'localrecording' (all lowercase) needs to be added to
     // TOOLBAR_BUTTONS in interface_config.js for the Local Recording
     // button to show up on the toolbar.
     //
-    //     enabled: true,
+        enabled: true,
     //
 
     // The recording format, can be one of 'ogg', 'flac' or 'wav'.
-    //     format: 'flac'
+        format: 'flac'
     //
 
-    // }
+    }
 
     // Options related to end-to-end (participant to participant) ping.
     // e2eping: {
