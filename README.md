@@ -24,7 +24,7 @@ This repository using [Apache License 2.0]
 
 ## Timeline Progress
 * [25032020] this repo created
-* [26032020] Update README.md and try docker-compose SUCCESS
+* [26032020] Update README.md and try docker-compose SUCCESS LOCALLY
 
 [docker-compose]:https://docs.docker.com/compose/ 
 [official jitsi/docker-jitsi-meet]:https://github.com/jitsi/docker-jitsi-meet
